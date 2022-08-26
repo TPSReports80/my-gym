@@ -11,11 +11,11 @@ const Footer = () => {
             alt="logo"
             width="48px"
             height="42px"
-            style={{ marginRight: "8px" }}
+            style={{ marginRight: "8px", marginTop: "-15px" }}
           />
           <span
             style={{
-              fontSize: "30px",
+              fontSize: "24px",
               textDecoration: "none",
               display: "flex",
               alignItems: "flex-end",
@@ -27,7 +27,15 @@ const Footer = () => {
           </span>
         </div>
 
-        <Typography>Built by Mike Joo</Typography>
+        <Typography
+          sx={{
+            fontSize: "14px",
+            fontWeight: 400,
+            fontFamily: "Archivo",
+          }}
+        >
+          Built by Mike Joo
+        </Typography>
       </Stack>
     </Box>
   );

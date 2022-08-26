@@ -6,7 +6,7 @@ const HeroBanner = () => {
   return (
     <Box
       sx={{
-        mt: { lg: "300px", xs: "70px" },
+        mt: { lg: "220px", xs: "70px" },
         ml: { sm: "50px" },
       }}
       p="20px"
@@ -41,6 +41,10 @@ const HeroBanner = () => {
           sx={{
             backgroundColor: "#ff2625",
             padding: "10px 20px",
+            mb: {
+              lg: "0px",
+              xs: "100px",
+            },
           }}
         >
           Explore Exercises

@@ -22,8 +22,6 @@ const ExerciseDetail = () => {
   React.useEffect(() => {
     const fetchExercisesData = async () => {
       try {
-        const youtubeSearchUrl =
-          "https://youtube-search-and-download.p.rapidapi.com";
         const exerciseDetailData = await fetchData(
           `${API_URL}/exercise/${id}`,
           exerciseOptions

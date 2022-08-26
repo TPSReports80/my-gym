@@ -1,5 +1,5 @@
 body {
-  font-family: "Josefin Sans";
+  font-family: "Archivo", sans-serif;
   background-color: #fffafb;
 }
 
@@ -32,7 +32,7 @@ a {
 .hero-banner-img {
   position: absolute;
   right: 40px;
-  top: 0px;
+  top: 64px;
   width: 700px;
   height: 900px;
   margin-top: -330px;
